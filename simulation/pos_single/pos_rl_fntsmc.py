@@ -213,7 +213,7 @@ if __name__ == '__main__':
         uav.rk44(action=action_4_uav, dis=uncertainty, n=1, att_only=False)
         
         '''8. data record'''
-        if USE_OBS:
+        if IS_IDEAL:
             in_obs_error = np.zeros(3)
             out_obs_error = np.zeros(3)
         else:
