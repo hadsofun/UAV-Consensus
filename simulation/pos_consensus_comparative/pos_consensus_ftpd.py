@@ -7,7 +7,7 @@ sys.path.append(os.path.dirname(os.path.abspath(__file__)) + "/../../")
 sys.path.append(os.path.dirname(os.path.abspath(__file__)) + "/../")
 
 from observer.RobustDifferentatior_3rd import robust_differentiator_3rd as rd3
-from uav.uav_consensus import usv_consensus, uav_param
+from uav.uav_consensus import uav_consensus, uav_param
 from utils.ref_cmd import *
 from utils.utils import *
 from consensus_uncertainty import *
